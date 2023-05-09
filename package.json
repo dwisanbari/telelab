@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "aedes": "^0.49.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mariadb": "^3.1.2",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
+  },
+  "name": "telelab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "dwi",
+  "license": "ISC",
+  "description": ""
+}

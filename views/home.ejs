@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <p>Here is your data:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Data 1</th>
+          <th>Data 2</th>
+          <th>Data 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (let i = 0; i < data.length; i++) { %>
+          <tr>
+            <td><%= data[i].id %></td>
+            <td><%= data[i].data1 %></td>
+            <td><%= data[i].data2 %></td>
+            <td><%= data[i].data3 %></td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>
+    <form method="get" action="/logout">
+        <button type="submit">Logout</button>
+    </form>
+  </body>
+</html>
+
+
+
